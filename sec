@@ -1,4 +1,4 @@
-local function secureCall(closure, ...)
+function secureCall(closure, ...)
     local env = getfenv(1)
     local renv = getrenv()
     local results
